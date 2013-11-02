@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            startScreen
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent"
+        />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.3.0/jquery.mobile.structure-1.3.0.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.8.2.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.3.0/jquery.mobile-1.3.0.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/childbrowser.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <link href="startScreen.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="startScreen.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                if (navigator.userAgent.match(/iP/i))
+        {
+            $(window).bind('orientationchange', function(event)
+            {
+                $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+            }).trigger('orientationchange');
+        }
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="startScreen" id="startScreen"
+        class="type-interior" data-theme="a" data-add-back-btn="false" data-back-btn-text="Back">
+            <!-- mobilecontainer1 -->
+            <div data-role="content" id="startScreen_mobilecontainer1" name="mobilecontainer1"
+            class=" startScreen_mobilecontainer1" dsid="mobilecontainer1" data-theme="c">
+                <!-- glimp_logo -->
+                <img class=" startScreen_glimp_logo" src="files/views/assets/image/glimp-142x142-alpha.png"
+                id="startScreen_glimp_logo" dsid="glimp_logo" name="glimp_logo" />
+                <!-- peer_label -->
+                <div name="peer_label" id="startScreen_peer_label" dsid="peer_label" data-role="appery_label"
+                class=' startScreen_peer_label '>
+                    Een Peer-fotoproject
+                </div>
+                <!-- editie_label -->
+                <div name="editie_label" id="startScreen_editie_label" dsid="editie_label" data-role="appery_label"
+                class=' startScreen_editie_label '>
+                    Editie 1, 2012-2014
+                </div>
+                <!-- glimp_list -->
+                <ul data-role="listview" id="startScreen_glimp_list" class=' startScreen_glimp_list '
+                name="glimp_list" dsid="glimp_list" data-theme="d" data-divider-theme="b" data-count-theme="b"
+                style="">
+                    <!-- mobilelistitem_20 -->
+                    <li class=' startScreen_mobilelistitem_20  tgz-cg-has-icon'>
+                        <a id="startScreen_mobilelistitem_20" name="mobilelistitem_20" dsid="mobilelistitem_20"
+                        tabIndex="1" class=' startScreen_mobilelistitem_20 '>
+                        <img class='ui-li-icon' src="files/views/assets/image/glimp-5-50x33.png" />
+                        <h3>Ilvy Njiokiktjien</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_22 -->
+                    <li class=' startScreen_mobilelistitem_22  tgz-cg-has-icon'>
+                        <a id="startScreen_mobilelistitem_22" name="mobilelistitem_22" dsid="mobilelistitem_22"
+                        tabIndex="1" class=' startScreen_mobilelistitem_22 '>
+                        <img class='ui-li-icon' src="files/views/assets/image/glimp-6-50x33.png" />
+                        <h3>Jasper Fontaine</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_24 -->
+                    <li class=' startScreen_mobilelistitem_24  tgz-cg-has-icon'>
+                        <a id="startScreen_mobilelistitem_24" name="mobilelistitem_24" dsid="mobilelistitem_24"
+                        tabIndex="1" class=' startScreen_mobilelistitem_24 '>
+                        <img class='ui-li-icon' src="files/views/assets/image/glimp-7-50x33.png" />
+                        <h3>Aernoud Piepenbrink</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_26 -->
+                    <li class=' startScreen_mobilelistitem_26  tgz-cg-has-icon'>
+                        <a id="startScreen_mobilelistitem_26" name="mobilelistitem_26" dsid="mobilelistitem_26"
+                        tabIndex="1" class=' startScreen_mobilelistitem_26 '>
+                        <img class='ui-li-icon' src="files/views/assets/image/glimp-8-50x33.png" />
+                        <h3>Sanne Groenendaal</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+</html>
