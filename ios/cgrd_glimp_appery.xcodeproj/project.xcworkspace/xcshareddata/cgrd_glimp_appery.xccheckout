@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>196DF20F-1FAE-48FF-8C43-6F5101E3BA50</string>
+	<key>IDESourceControlProjectName</key>
+	<string>cgrd_glimp_appery</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>35F67E0C-8FD7-4563-A85C-DFEF3A16EA8D</key>
+		<string>ssh://github.com/codegap/cgrd-glimp-appery</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/cgrd_glimp_appery.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>35F67E0C-8FD7-4563-A85C-DFEF3A16EA8D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/codegap/cgrd-glimp-appery</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>35F67E0C-8FD7-4563-A85C-DFEF3A16EA8D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>35F67E0C-8FD7-4563-A85C-DFEF3A16EA8D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cgrd-glimp-appery</string>
+		</dict>
+	</array>
+</dict>
+</plist>
